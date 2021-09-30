@@ -1,0 +1,6 @@
+Simple timer program made on python
+used the following aspects
+1)threading
+2)pynput
+3)playsound
+4)nested functions
