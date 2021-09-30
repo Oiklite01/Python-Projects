@@ -13,12 +13,7 @@ def player():
 def sound():
      th.Thread(target=player,args=(),daemon=True).start()
      while inp:
-         while True:
-            try:
-                playsound('alarm.wav')
-            except:
-                print("sound error")
-                break
+                playsound("alarm.wav")
 def countdown(tmp):
      def time_format(inp):
           import os
