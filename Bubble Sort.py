@@ -1,12 +1,4 @@
 #Bubble Sort
-<<<<<<< HEAD
-a=[int(x) for x in input().strip().split()]
-for x in range(0,len(a)-1):
-    for y in range(0,len(a)-1-x):
-        if a[y]>a[y+1]:
-            a[y],a[y+1]=a[y+1],a[y]
-print(*a)
-=======
 def bubble_sort(a):
     for x in range(0,len(a)-1):
         for y in range(0,len(a)-1-x):
@@ -41,6 +33,6 @@ def main():
     end=time()
     printlist(y,end-start,"Insertion")
 #driver code
+#test
 if __name__=='__main__':
     main()
->>>>>>> test
