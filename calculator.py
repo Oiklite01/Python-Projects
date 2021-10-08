@@ -4,7 +4,7 @@ root=Tk()
 font_1=tkfont.Font(family='Helvetica',size=12,weight='normal')
 font_2=tkfont.Font(family='Helvetica',size=20,weight='normal')
 root.title("Calculator")
-root.iconphoto(False, PhotoImage(file='images/calculator-icon-png-28.png'))
+#root.iconphoto(False, PhotoImage(file='images/calculator-icon-png-28.png'))
 num_1=0
 inp=''
 def click(number):
