@@ -1,0 +1,30 @@
+git add -A or git add <file here>
+git commit
+add message
+esc :wq
+ls local stotrage to see all files in root director
+git rm
+git rm --cached 
+git diff
+git diff --staged 
+git commit -a -m "<message here>" # works after one commit
+git log -p -number (optional to display req commits)
+env variable git added 
+git status
+git statis -s (small status)
+git restore --staged <file name here>
+touch <file> to create a file in root dictionary 
+clear   clears terminal 
+.gitignore file (put file names you dont want to push or pull put a / before file to check that file in only\n
+                         only your root dictionary otherwise checks all places to ignore for filenames in gitignore)
+highlight the bar and write cmd there to open cmd in the given directory 
+git branch (shows all branches)
+git branch <name here> to make new branch adn stays in the current branch
+git checkout -b <name here> to make new branch and switch to it
+{branches are used to make edits in a code without changing or altering the main file}
+{example branch master and B I switch to B and then change bubble sort in B and commit in B}
+{then changes will be made only in b and with using git checkout master i can go back to master}
+{and in master branch changes wont show unless i commit them there.till then they will only be in B}
+{if i use git checkout B then changes will again show in the file under B branch}
+git merge <new-branch> to merge branches
+git branch -d <branch name> to delete branch after merging its safe to do so

@@ -10,7 +10,7 @@ cancel = KeyCode(char='d')
 class ClickMouse(threading.Thread):
      
      def __init__(self, delay, button):
-           super(ClickMouse, self).__init__()
+           super().__init__()
            self.delay = delay
            self.button = button
            self.running = False
