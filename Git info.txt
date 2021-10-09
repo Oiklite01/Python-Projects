@@ -41,3 +41,4 @@ ssh-add ~/.ssh/id_ed25519   this is to add your ssh key to ssh agent
  cat clip < ~/.ssh/id_ed25519.pub  this is used to see what is in your ssh key  then copy and add this ssh key to github
  git remote set-url origin <"url here"> to make origin this url 
  git push -u origin(remote repo) <branch to push>to push updated branch to github
+ Testing out something
