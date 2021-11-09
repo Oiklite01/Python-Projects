@@ -66,6 +66,20 @@ class LinkedList:
         tmp.next = None
         tmp.next=tmp2
 
+    def dellist(self):
+        self.head=None
+
+    def reverse(self):
+        tmp=None
+        curr=self.head
+        while self.head is not None:
+            next=curr.next
+            curr.next=tmp
+            tmp=curr
+            curr=next
+        self.head=tmp
+
+
 
     def printList(self):
         tmp=self.head
@@ -94,11 +108,11 @@ def main():
     ar_str=str(input("enter {} space separated integers=> ".format(len_ar)))
     generator(ar_str,len_ar,llist)
     token=input("do you want to delete a element  ")
-        if (token=="y"):
-            deletion(llist)
-        else:
-            print("Bbye")    
+    if (token=="y"):
+        deletion(llist)
+    else:
+        print("Bbye")    
 #driver code
 main()
- 
+
 
