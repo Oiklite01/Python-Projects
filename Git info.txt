@@ -11,7 +11,7 @@ git commit -a -m "<message here>" # works after one commit
 git log -p -number (optional to display req commits)
 env variable git added 
 git status
-git statis -s (small status)
+git status -s (small status)
 git restore --staged <file name here>
 touch <file> to create a file in root dictionary 
 clear   clears terminal 
