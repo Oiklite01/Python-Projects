@@ -35,7 +35,7 @@ def on_press(key):
      elif(key==k2):
           clicking.Exit()
           listener.stop()
-delay= 0.01
+delay= 0.001
 button= Button.left
 k1 = KeyCode(char='s')
 k2 = KeyCode(char='d')
