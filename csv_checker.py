@@ -1,4 +1,4 @@
-import CSV
+import csv
 a=['name','rollnumber','exam']
 b=[['abc',12,'jee'],
      ['xyz',13,'neet'],
