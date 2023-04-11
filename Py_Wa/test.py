@@ -1,3 +1,4 @@
 import pyautogui
 import time
-pyautogui.displayMousePosition()
+f=open("influence.txt","r")
+print(f.read())

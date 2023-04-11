@@ -2,17 +2,21 @@ import pyautogui as pt
 from time import sleep
 import openai
 import pyperclip
-
+ar="okieokkkkokayoka"
+f = open("influence.txt",'r')
 def resp(s:str)->str:
     import random
     openai.api_key="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"
     eng = "text-davinci-003"
-    ques=s
-    a = round(random.uniform(0.1,0.3),2)
+    global ar , f
+    ques="answer in simple hindi&english mixed using roman script as truthfully as possible to"+s
+    if(ques.lower() in ar):
+        return "Okk"
+    a = 0.7#round(random.uniform(0.2,0.4),1)
     completion=openai.Completion.create(
         engine=eng,
         prompt=ques,
-        max_tokens=100,
+        max_tokens=1000,
         temperature=a,
         n=1
     )
